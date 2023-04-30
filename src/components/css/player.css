@@ -1,0 +1,29 @@
+.player{
+    width: 100%;
+    position: relative;
+    left:0;
+    top:0;
+}
+.video{
+  
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100vw;
+    margin-left: -169px;
+    height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+    .video{
+        width: 585px;
+        margin-left: 0px;
+    }
+  }
+
+.exit{
+    position:absolute;
+    top:10px;
+    left:10px;
+    height: 50px;
+    z-index: 1;
+}

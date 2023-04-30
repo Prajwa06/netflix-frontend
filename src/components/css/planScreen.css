@@ -1,0 +1,38 @@
+.plansScreen> h3{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+.plan{
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.plan > button{
+    background-color:#282c2d;
+    height: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plan > button:hover{
+    background-color:#e50914;
+    height: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+.plan>div>h3{
+    color: #e50914;
+    margin-bottom: 2px;
+    font-size: 25px;
+    
+}

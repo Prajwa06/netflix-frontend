@@ -1,0 +1,87 @@
+
+.login{
+    background:url("https://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg") center no-repeat;
+    background-size:cover;
+    position: relative;
+    height: 100%;
+}
+.loginScreen__gradient{
+   
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8)100%
+    );
+}
+.loginScreen__body{
+    position: absolute;
+    top:30%;
+    left:4%;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.loginScreen__body>h1{
+    font-size: 3.125rem;
+    font-weight: 800;
+    color: #fff;
+    padding: 20px;
+    
+}
+.loginScreen__body>h2{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    padding: 20px;
+}
+.loginScreen__body>h3{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+    padding: 20px;
+}
+.loginScreen__logo{
+    position: fixed;
+    left: 0;
+    top:-25px;
+    width: 150px;
+    object-fit: contain;
+    padding: 20px;
+}
+.loginScreen__button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding:10px 20px;
+    color: #fff;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loginScreen__input > form > input{
+    padding: 10px;
+    outline-width:0 ;
+    height: 30px;
+    width: 30%;
+    border: none;
+   
+}
+.loginScreen__input >form >button{
+    cursor: pointer;
+    padding: 15px 20px 17px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    
+}
